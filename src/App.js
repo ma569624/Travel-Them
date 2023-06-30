@@ -4,7 +4,7 @@ import logo from './logo.svg';
 function App() {
   return (
     <>
-
+      <h1>Home Page</h1>
     </>
   );
 }
