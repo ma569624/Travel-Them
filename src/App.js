@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-
+import Home from "./Pages/home/Home";
 
 function App() {
   return (
     <>
-      <h1>Home Page</h1>
+      <Home />
     </>
   );
 }
