@@ -1,0 +1,33 @@
+.nav-link{
+    color: var(--neutrals, #FFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-sign{
+    background-color: #FFF;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+}
+.btn-sign-black{
+    background-color: #000;
+    color: #FFF;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+}

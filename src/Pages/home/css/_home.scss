@@ -1,0 +1,52 @@
+.overlay {
+    border-radius: 15px;
+    position: absolute;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align: center;
+    width: max-content;
+    z-index: 9;
+
+    h1{
+        color: var(--neutrals, #FFF);
+        text-align: center;
+        font-family: TradeGothic LT Extended;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h2{
+        color: var(--neutrals, #FFF);
+        text-align: center;
+        font-family: TradeGothic LT Extended;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    h3{
+        color: var(--neutrals, #FFF);
+        text-align: center;
+
+        /* Montserrat/Semibold/20px */
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

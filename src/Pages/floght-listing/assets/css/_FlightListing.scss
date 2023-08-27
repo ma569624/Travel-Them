@@ -1,0 +1,15 @@
+main {
+    .fliters {
+        .list-group-item {
+            border: 0;
+            border-radius: unset !important;
+            &.active {
+                background:none;
+                color: black;
+                border: none;
+                border-bottom: 4px solid #8DD3BB;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,99 @@
+footer {
+    .bg-footer {
+        background: #8DD3BB;
+
+        padding: 104px 0 64px 0;
+
+        h4 {
+            color: var(--blackish-green, #121);
+
+            /* TradeGothic/Bold/16px */
+            font-family: TradeGothic LT Extended;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 12px;
+        }
+
+        .nav-link {
+            color: var(--blackish-green, #121) !important;
+
+            /* Montserrat/Medium/14px */
+            font-family: Montserrat;
+            font-size: 14px !important;
+            font-style: normal;
+            font-weight: 500 !important;
+            line-height: normal;
+            padding-bottom: 12px;
+        }
+    }
+
+    .card {
+        border: none;
+        padding: 0px 24px;
+        justify-content: space-between;
+
+        border-radius: 20px !important;
+        background: #CDEAE1 !important;
+        /* Cards Shadow */
+        box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05) !important;
+    }
+
+    h2 {
+        color: var(--blackish-green, #121);
+        font-family: TradeGothic LT Extended;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+        /* 122.727% */
+    }
+
+    h5 {
+        color: var(--blackish-green, #121);
+        /* TradeGothic/Bold/20px */
+        font-family: TradeGothic LT Extended;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h6 {
+        color: var(--blackish-green, #121);
+
+        /* Montserrat/Medium/16px */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    input {
+        width: 100%;
+        border-radius: 4px 4px 0px 0px;
+        border: none;
+        padding: 8px 0px 8px 16px;
+        &:focus-visible{
+            outline: -webkit-focus-ring-color auto 0px !important;
+        }
+    }
+
+    button {
+        border-radius: 4px;
+        padding: 8px 16px 8px 16px;
+        background: var(--blackish-green, #121);
+        color: var(--neutrals, #FFF);
+        display: flex;
+
+        /* Montserrat/Semibold/14px */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        height: 100%;
+        
+    }
+}

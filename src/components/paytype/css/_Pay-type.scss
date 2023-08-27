@@ -1,0 +1,45 @@
+.pay-type {
+    border: none !important;
+    border-radius: 12px;
+    background: var(--neutrals, #FFF);
+    /* Cards Shadow */
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+
+    .bg-success {
+        border-radius: 12px;
+        background-color: var(--mint-green, #8DD3BB) !important;
+    }
+
+    h4 {
+        color: var(--blackish-green, #121);
+        /* TradeGothic/Bold/16px */
+        font-family: TradeGothic LT Extended;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    span {
+        color: var(--blackish-green, #121);
+        /* Montserrat/Regular/14px */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 80%;
+        display: block;
+    }
+
+    a {
+        color: var(--blackish-green, #121);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+}

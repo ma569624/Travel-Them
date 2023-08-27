@@ -1,0 +1,28 @@
+.account-flow{
+    
+    .profile-sec{
+        .per-detial{
+            transform: translateY(-40%);
+        }
+        .person{
+            position: relative;
+
+            button{
+                bottom: 7%;
+                right: 26px;
+                border: 0;
+                border-radius: 50%;
+                padding: 14px;
+                background-color: #ddd;
+                position: absolute;
+            }
+            
+        }
+        h2{
+            text-align: left;
+        }
+        span{
+            text-align: center;
+        }
+    }
+}

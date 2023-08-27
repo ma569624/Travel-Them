@@ -1,0 +1,33 @@
+.filters {
+    .accordion-item {
+        margin-top: 20px;
+        border: none;
+
+        .accordion-button {
+            background-color: transparent !important;
+            padding: 0;
+            box-shadow: none;
+
+            &:focus{
+                box-shadow: none;
+            }
+        }
+    }
+    .accordion-body{
+        margin-top: 20px;
+        padding: 0;
+
+        .form {
+            margin: 0 auto;
+            padding: 100px 30px 0;
+          
+            @media (min-width: 800px) {
+              max-width: 60%;
+            }
+          }
+          
+          .input-range {
+            margin-bottom: 160px;
+          }
+    }
+}

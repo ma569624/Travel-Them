@@ -1,0 +1,1317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  border-radius: 15px;
+  position: absolute;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+  width: -moz-max-content;
+  width: max-content;
+  z-index: 9;
+}
+.banner-text h1 {
+  color: var(--neutrals, #FFF);
+  text-align: center;
+  font-family: TradeGothic LT Extended;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner-text h2 {
+  color: var(--neutrals, #FFF);
+  text-align: center;
+  font-family: TradeGothic LT Extended;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.banner-text h3 {
+  color: var(--neutrals, #FFF);
+  text-align: center;
+  /* Montserrat/Semibold/20px */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.home-banner .hm-banner-text {
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: -moz-max-content;
+  width: max-content;
+}
+.home-banner .hm-banner-text h2 {
+  color: var(--neutrals, #FFF);
+  text-align: center;
+  /* TradeGothic/Bold/40px */
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home-banner .hm-banner-text p {
+  color: var(--neutrals, #FFF);
+  text-align: center;
+  /* Montserrat/Regular/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.home-banner .hm-banner-text button {
+  border-radius: 4px;
+  background: #8DD3BB;
+  color: var(--blackish-green, #121);
+  border: none;
+  padding: 8px 16px;
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer .bg-footer {
+  background: #8DD3BB;
+  padding: 104px 0 64px 0;
+}
+footer .bg-footer h4 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/16px */
+  font-family: TradeGothic LT Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+footer .bg-footer .nav-link {
+  color: var(--blackish-green, #121) !important;
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+footer .card {
+  border: none;
+  padding: 0px 24px;
+  justify-content: space-between;
+  border-radius: 20px !important;
+  background: #CDEAE1 !important;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05) !important;
+}
+footer h2 {
+  color: var(--blackish-green, #121);
+  font-family: TradeGothic LT Extended;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  /* 122.727% */
+}
+footer h5 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/20px */
+  font-family: TradeGothic LT Extended;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer h6 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer input {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+  border: none;
+  padding: 8px 0px 8px 16px;
+}
+footer input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+footer button {
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  background: var(--blackish-green, #121);
+  color: var(--neutrals, #FFF);
+  display: flex;
+  /* Montserrat/Semibold/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  height: 100%;
+}
+
+.form-bg {
+  border-radius: 16px;
+  background: var(--neutrals, #FFF);
+  box-shadow: 0px 4px 16px 0px rgba(141, 211, 187, 0.15);
+  position: relative;
+  z-index: 3;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+
+.nav-link {
+  color: #121 !important;
+  font-family: Montserrat;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.nav-link.active {
+  background-color: #FFFFFF !important;
+  color: var(--blackish-green, #121) !important;
+  border-bottom: 4px solid #8DD3BB;
+  border-radius: unset !important;
+}
+
+form .dropdown {
+  border-radius: 4px;
+  border: 1px solid #79747E;
+  background: #FFF;
+  background-color: white;
+  width: -webkit-fill-available;
+}
+form .dropdown-header {
+  padding: 8px;
+  padding-left: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form .dropdown-body {
+  padding: 5px;
+  background-color: #FFF;
+  border: 1px solid #79747E;
+  display: none;
+  width: 100%;
+}
+form .dropdown-body.open {
+  display: inline-block;
+  position: absolute;
+}
+form .dropdown-item {
+  padding: 10px;
+}
+form .dropdown-item:hover {
+  cursor: pointer;
+}
+form .dropdown-item-dot {
+  opacity: 0;
+  color: #91A5BE;
+  transition: all 0.2s ease-in-out;
+}
+form .dropdown-item-dot.selected {
+  opacity: 1;
+}
+form .icon {
+  font-size: 13px;
+  color: #91A5BE;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+form .icon.open {
+  transform: rotate(90deg);
+}
+form button {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  background: #8DD3BB;
+}
+
+.nav-link {
+  color: var(--neutrals, #FFF);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-sign {
+  background-color: #FFF;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-sign-black {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-radius: 8px;
+}
+
+.review h3 {
+  color: #000;
+  /* Montserrat/Semibold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.review span {
+  color: #000;
+  /* Montserrat/Regular/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.review button {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8DD3BB;
+  background-color: #fff;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.review .card {
+  border: none;
+  border-radius: 20px;
+  background: var(--neutrals, #FFF);
+  box-shadow: 2px 4px 16px 0px rgba(17, 34, 17, 0.1);
+  padding: 24px;
+}
+.review .card h4 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/24px */
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.review .card p {
+  overflow: hidden;
+  color: var(--blackish-green, #121);
+  text-overflow: ellipsis;
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.review .card .nav-link {
+  color: var(--blackish-green, #121);
+  text-align: right;
+  /* TradeGothic/Bold/16px */
+  font-family: TradeGothic LT Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.review .card h5 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/14px */
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.review .card h6 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.review .card .g-txt {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/12px */
+  font-family: TradeGothic LT Extended;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.CardDetial {
+  border: none !important;
+  padding: 20px;
+}
+.CardDetial .heart {
+  border: 1px solid #cfc8c8;
+  border-radius: 4px;
+}
+.CardDetial .rate h6 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.CardDetial .rate h6 strong {
+  font-weight: 700;
+}
+.CardDetial .rate .rate-review {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+}
+.CardDetial .rate .prc-txt {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.CardDetial .rate h3 {
+  color: var(--slamon, #FF8682);
+  text-align: right;
+  /* Montserrat/Bold/24px */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.CardDetial .time input {
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+}
+.CardDetial .time h6 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.CardDetial .time p {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Regular/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.4;
+}
+.CardDetial .view {
+  border-radius: 4px;
+  background: var(--mint-green, #8DD3BB);
+  height: 100%;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/14px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.services-sec .card-bg {
+  border: none !important;
+  border-radius: 12px !important;
+  background: var(--neutrals, #FFF) !important;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05) !important;
+  margin-bottom: 27px;
+}
+.services-sec .card-bg h4 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/16px */
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+.services-sec .card-bg .list-group {
+  padding-right: 8px;
+  color: var(--blackish-green, #121) !important;
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+  position: relative;
+}
+.services-sec .btn-see {
+  border-radius: 4px;
+  border: 1px solid #8DD3BB;
+  padding: 8px 16px;
+  justify-content: right;
+  align-items: center;
+  background-color: #fff;
+}
+
+.FlightFlow .map h3 {
+  color: #000;
+  /* Montserrat/Semibold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FlightFlow .map p {
+  color: #000;
+  /* Montserrat/Regular/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.FlightFlow .map button {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  padding: 8px 16px;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: none;
+}
+.FlightFlow .price-card-sec .price-sec {
+  bottom: 5%;
+}
+.FlightFlow .price-card-sec h3 {
+  color: #000;
+  /* Montserrat/Semibold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FlightFlow .price-card-sec p {
+  color: #000;
+  /* Montserrat/Regular/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.FlightFlow .price-card-sec .button-default {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  padding: 8px 16px;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: none;
+}
+.FlightFlow .price-card-sec .button-book {
+  border-radius: 4px;
+  border: none;
+  background: var(--mint-green, #8DD3BB);
+  padding: 8px 16px;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightFlow .detail-sec h3 {
+  color: #000;
+  /* Montserrat/Semibold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FlightFlow .detail-sec p {
+  color: #000;
+  /* Montserrat/Regular/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.FlightFlow .detail-sec button {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  padding: 8px 16px;
+  color: var(--blackish-green, #121);
+  background: none;
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightFlow .detail-sec h2 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/40px */
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 50%;
+}
+
+main .fliters .list-group-item {
+  border: 0;
+  border-radius: unset !important;
+}
+main .fliters .list-group-item.active {
+  background: none;
+  color: black;
+  border: none;
+  border-bottom: 4px solid #8DD3BB;
+}
+
+.filters .accordion-item {
+  margin-top: 20px;
+  border: none;
+}
+.filters .accordion-item .accordion-button {
+  background-color: transparent !important;
+  padding: 0;
+  box-shadow: none;
+}
+.filters .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+.filters .accordion-body {
+  margin-top: 20px;
+  padding: 0;
+}
+.filters .accordion-body .form {
+  margin: 0 auto;
+  padding: 100px 30px 0;
+}
+@media (min-width: 800px) {
+  .filters .accordion-body .form {
+    max-width: 60%;
+  }
+}
+.filters .accordion-body .input-range {
+  margin-bottom: 160px;
+}
+
+.FlightDetialCard {
+  padding: 32px 24px;
+  border: none !important;
+  border-radius: 12px !important;
+  background: var(--neutrals, #FFF);
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+}
+.FlightDetialCard h6 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/20px */
+  font-family: TradeGothic LT Extended;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.FlightDetialCard span {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/20px */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightDetialCard .card {
+  border-radius: 8px;
+  border: 0.5px solid var(--mint-green, #8DD3BB);
+  background: var(--neutrals, #FFF);
+}
+.FlightDetialCard .card h5 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/24px */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FlightDetialCard .card small {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightDetialCard strong {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/24px */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FlightDetialCard small {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightDetialCard .feature .list-group-item {
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+.FlightDetialCard .feature .list-group-item:last-child {
+  border-right: 0;
+}
+.FlightDetialCard .btm-air {
+  width: 40px;
+}
+
+.breadcumb {
+  --bs-breadcrumb-divider: ">";
+}
+.breadcumb a {
+  text-decoration: none;
+}
+
+.FlightDetials .price-detial .first h4 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/24px */
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.FlightDetials .price-detial .first address {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.FlightDetials .price-detial .first span {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  color: var(--blackish-green, #121);
+  padding: 8px 16px;
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightDetials .price-detial .first strong {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Bold/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.FlightDetials .price-detial .first small {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlightDetials .price-detial .first h2 {
+  color: var(--slamon, #FF8682);
+  text-align: right;
+  /* Montserrat/Bold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.FlightDetials .price-detial .first .btn-social {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  padding: 8px 16px;
+  background-color: #fff;
+  min-height: 48px;
+}
+.FlightDetials .price-detial .first .bg-success {
+  border-radius: 4px;
+  background: var(--mint-green, #8DD3BB) !important;
+  color: var(--blackish-green, #121);
+  padding: 8px 32px;
+  /* Montserrat/Semibold/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  min-height: 48px;
+}
+
+.booking-detials {
+  border: none !important;
+  border-radius: 12px !important;
+  background: var(--neutrals, #FFF) !important;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05) !important;
+  padding: 17px;
+}
+.booking-detials .top img {
+  width: -moz-max-content;
+  width: max-content;
+  max-height: 100px;
+}
+.booking-detials .top span {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.booking-detials .top h4 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/20px */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.booking-detials .top .review {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+}
+.booking-detials .top .review p {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.booking-detials .top strong {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Bold/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.booking-detials .top strong small {
+  font-weight: 500;
+}
+.booking-detials .tagline h5 {
+  margin: 16px 0;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Bold/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.booking-detials table thead th {
+  color: var(--blackish-green, #121);
+  padding: 0;
+  /* TradeGothic/Bold/16px */
+  font-family: TradeGothic LT Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.booking-detials table tbody tr:last-child {
+  border-top: 0.5px solid rgba(17, 34, 17, 0.5);
+}
+.booking-detials table tbody td {
+  padding: 8px 0 8px 0;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.booking-detials table tbody td:last-child {
+  text-align: end;
+}
+
+.pay-type {
+  border: none !important;
+  border-radius: 12px;
+  background: var(--neutrals, #FFF);
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+}
+.pay-type .bg-success {
+  border-radius: 12px;
+  background-color: var(--mint-green, #8DD3BB) !important;
+}
+.pay-type h4 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/16px */
+  font-family: TradeGothic LT Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pay-type span {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Regular/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 80%;
+  display: block;
+}
+.pay-type a {
+  color: var(--blackish-green, #121);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.book_login_sign {
+  padding: 24px;
+  border-radius: 12px;
+  background: var(--neutrals, #FFF);
+  border: none !important;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+}
+.book_login_sign h4 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/20px */
+  font-family: TradeGothic LT Extended;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.book_login_sign form input {
+  border-radius: 4px;
+  border: 1px solid #79747E;
+  background: #FFF;
+  padding: 8px;
+  width: 100%;
+}
+.book_login_sign form label {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Regular/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.book_login_sign form .btn-continue {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 4px;
+  background: var(--mint-green, #8DD3BB);
+  border: none;
+  color: var(--blackish-green, #121);
+  padding: 8px 16px;
+  /* Montserrat/Medium/16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.book_login_sign form .social-login button {
+  padding: 16px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  width: 100%;
+  background: none !important;
+}
+
+.modal-content {
+  padding: 42px !important;
+}
+.modal-content .modal-header {
+  padding: 0;
+  border: none !important;
+  color: #000;
+}
+.modal-content .modal-body {
+  padding: 0;
+}
+.modal-content .modal-body .modal-title {
+  /* TradeGothic/Bold/40px */
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.modal-content .input-box {
+  position: relative;
+  margin-top: 24px;
+}
+.modal-content .input-box label {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 5px;
+  margin-left: 14px;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Regular/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal-content .input-box input {
+  border-radius: 4px;
+  border: 1px solid #79747E;
+  background: var(--neutrals, #FFF);
+  padding: 4px 0px 4px 16px;
+  min-height: 48px;
+  width: 100%;
+}
+.modal-content .input-box input:focus-visible {
+  border: 1px solid #454248 !important;
+}
+.modal-content .tickmark {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.modal-content .tickmark input {
+  min-width: 20px;
+  min-height: 20px;
+}
+.modal-content .tickmark small {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.modal-content .add-cart {
+  min-height: 48px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: var(--mint-green, #8DD3BB);
+  border: none !important;
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.modal-content span {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Regular/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conform-booking .price h4 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/24px */
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.conform-booking .price address {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.conform-booking .price h2 {
+  color: var(--blackish-green, #121);
+  text-align: right;
+  /* Montserrat/Bold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.conform-booking .price .btn-social {
+  border-radius: 4px;
+  border: 1px solid var(--mint-green, #8DD3BB);
+  min-width: 48px;
+  min-height: 48px;
+  padding: 8px 16px;
+}
+.conform-booking .price .download {
+  border: 1px solid var(--mint-green, #8DD3BB);
+  border-radius: 4px;
+  background: var(--mint-green, #8DD3BB);
+  color: var(--blackish-green, #121);
+  min-height: 48px;
+  min-width: 150px;
+  padding: 8px 16px;
+  /* Montserrat/Semibold/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-frst {
+  background: #EBF6F2;
+  padding: 24px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+.conform-booking .person-detial-card .sec-frst .img-btw {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px 0;
+}
+.conform-booking .person-detial-card .sec-frst h4 {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-frst small {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-secnd {
+  border: 2px solid #8DD3BB;
+  border-radius: 0 8px 8px 0;
+  height: 100%;
+}
+.conform-booking .person-detial-card .sec-secnd .top {
+  background: var(--mint-green, #8DD3BB);
+  padding: 24px;
+}
+.conform-booking .person-detial-card .sec-secnd .top h5 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/20px */
+  font-family: TradeGothic LT Extended;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.conform-booking .person-detial-card .sec-secnd .top span {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Regular/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-secnd .top h6 {
+  color: var(--blackish-green, #121);
+  /* TradeGothic/Bold/14px */
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom {
+  padding: 24px;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom .bg-icon {
+  border-radius: 4px;
+  background: #EBF6F2;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 32px;
+  min-height: 32px;
+  padding: 5px;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom strong {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/14px */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom small {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom .qr-code {
+  margin-top: 40px;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom .qr-code b {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Semibold/32px */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.conform-booking .person-detial-card .sec-secnd .bottom .qr-code p {
+  color: var(--blackish-green, #121);
+  /* Montserrat/Medium/12px */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.account-flow .profile-sec .per-detial {
+  transform: translateY(-40%);
+}
+.account-flow .profile-sec .person {
+  position: relative;
+}
+.account-flow .profile-sec .person button {
+  bottom: 7%;
+  right: 26px;
+  border: 0;
+  border-radius: 50%;
+  padding: 14px;
+  background-color: #ddd;
+  position: absolute;
+}
+.account-flow .profile-sec h2 {
+  text-align: left;
+}
+.account-flow .profile-sec span {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

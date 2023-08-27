@@ -1,0 +1,99 @@
+.CardDetial {
+    border: none !important;
+    padding: 20px;
+
+    .heart {
+        border: 1px solid #cfc8c8;
+        border-radius: 4px;
+    }
+
+    .rate {
+        h6 {
+            color: var(--blackish-green, #121);
+
+            /* Montserrat/Medium/12px */
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            strong {
+                font-weight: 700;
+            }
+        }
+
+        .rate-review {
+            border-radius: 4px;
+            border: 1px solid var(--mint-green, #8DD3BB);
+        }
+
+        .prc-txt {
+            color: var(--blackish-green, #121);
+
+            /* Montserrat/Medium/12px */
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        h3 {
+            color: var(--slamon, #FF8682);
+            text-align: right;
+
+            /* Montserrat/Bold/24px */
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .time {
+        input {
+            width: 22px;
+            height: 22px;
+            opacity: 0.3;
+        }
+
+        h6 {
+            color: var(--blackish-green, #121);
+
+            /* Montserrat/Semibold/16px */
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p {
+            color: var(--blackish-green, #121);
+
+            /* Montserrat/Regular/14px */
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.4;
+        }
+    }
+
+    .view {
+        border-radius: 4px;
+        background: var(--mint-green, #8DD3BB);
+        height: 100%;
+
+        color: var(--blackish-green, #121);
+        /* Montserrat/Semibold/14px */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+
+}

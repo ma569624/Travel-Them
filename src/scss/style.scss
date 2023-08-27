@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import '../Pages/home/css/home';
+@import '../Pages/home/banner/css/banner';
+@import '../components/footer/css/footer';
+@import '../components/forum/css/forum';
+@import '../components/header/css/header';
+@import '../components/review/css/review';
+@import '../components/carddetials/css/CardDetails';
+@import '../components/services/css/services';
+@import '../Pages/flight-flow/assets/css/FlightFlow';
+@import '../Pages/floght-listing/assets/css/FlightListing';
+@import '../components/filters/css/Filters';
+@import '../components/flightdetialcard/css/FlightDetialCard';
+@import '../Pages/flight-detials/assets/css/FlightDetials';
+@import '../components/bookingdetials/assets/css/Booking-Detials';
+@import '../components/paytype/css/Pay-type';
+@import '../components/book/css/book_login_sign';
+@import '../components/bookmodal/css/bookmodal';
+@import '../Pages/conformbooking/css/conform-booking';
+@import '../Pages/accountflow/css/AccountFlow';

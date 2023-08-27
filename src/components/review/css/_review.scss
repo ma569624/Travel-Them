@@ -1,0 +1,111 @@
+.review {
+    h3 {
+        color: #000;
+        /* Montserrat/Semibold/32px */
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    span {
+        color: #000;
+        /* Montserrat/Regular/16px */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    button {
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid #8DD3BB;
+        background-color: #fff;
+
+        color: var(--blackish-green, #121);
+        /* Montserrat/Medium/14px */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card {
+        border: none;
+        border-radius: 20px;
+        background: var(--neutrals, #FFF);
+        box-shadow: 2px 4px 16px 0px rgba(17, 34, 17, 0.10);
+        padding: 24px;
+
+        h4 {
+            color: var(--blackish-green, #121);
+            /* TradeGothic/Bold/24px */
+            font-family: TradeGothic LT Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p {
+            overflow: hidden;
+            color: var(--blackish-green, #121);
+            text-overflow: ellipsis;
+
+            /* Montserrat/Medium/14px */
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .nav-link {
+            color: var(--blackish-green, #121);
+            text-align: right;
+            /* TradeGothic/Bold/16px */
+            font-family: TradeGothic LT Extended;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h5 {
+            color: var(--blackish-green, #121);
+            /* TradeGothic/Bold/14px */
+            font-family: TradeGothic LT Extended;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h6 {
+            color: var(--blackish-green, #121);
+            /* Montserrat/Medium/12px */
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .g-txt {
+            color: var(--blackish-green, #121);
+
+            /* TradeGothic/Bold/12px */
+            font-family: TradeGothic LT Extended;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}

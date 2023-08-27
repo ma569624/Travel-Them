@@ -1,0 +1,46 @@
+.home-banner {
+    .hm-banner-text {
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+
+        h2 {
+            color: var(--neutrals, #FFF);
+            text-align: center;
+
+            /* TradeGothic/Bold/40px */
+            font-family: TradeGothic LT Extended;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p {
+            color: var(--neutrals, #FFF);
+            text-align: center;
+
+            /* Montserrat/Regular/16px */
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        button {
+            border-radius: 4px;
+            background: #8DD3BB;
+            color: var(--blackish-green, #121);
+            border: none;
+            padding: 8px 16px;
+            /* Montserrat/Medium/14px */
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}

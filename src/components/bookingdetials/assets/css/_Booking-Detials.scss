@@ -1,0 +1,123 @@
+.booking-detials {
+    border: none !important;
+    border-radius: 12px !important;
+    background: var(--neutrals, #FFF) !important;
+
+    /* Cards Shadow */
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05) !important;
+    padding: 17px;
+
+    .top {
+        img {
+            width: max-content;
+            max-height: 100px;
+        }
+
+        span {
+            color: var(--blackish-green, #121);
+            /* Montserrat/Medium/16px */
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            color: var(--blackish-green, #121);
+            /* Montserrat/Semibold/20px */
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        .review {
+            padding: 6px 10px;
+            border-radius: 4px;
+            border: 1px solid var(--mint-green, #8DD3BB);
+
+            p {
+                color: var(--blackish-green, #121);
+                /* Montserrat/Medium/12px */
+                font-family: Montserrat;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+        strong {
+            color: var(--blackish-green, #121);
+            /* Montserrat/Bold/12px */
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            small {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .tagline {
+       
+
+        h5 {
+            margin: 16px 0;
+            color: var(--blackish-green, #121);
+            /* Montserrat/Bold/16px */
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    table {
+        thead {
+            th {
+                color: var(--blackish-green, #121);
+                padding: 0;
+                /* TradeGothic/Bold/16px */
+                font-family: TradeGothic LT Extended;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+        tbody {
+            tr{
+                &:last-child{
+                    border-top: 0.5px solid rgba($color: #121, $alpha: .5);
+                    
+                }
+            }
+            td {
+
+                padding: 8px 0 8px 0;
+                color: var(--blackish-green, #121);
+
+                /* Montserrat/Medium/16px */
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                
+                &:last-child{
+                    text-align: end;
+                }
+            }
+        }
+    }
+}

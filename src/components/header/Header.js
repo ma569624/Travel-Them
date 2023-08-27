@@ -2,28 +2,34 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Button } from 'react-bootstrap';
 
-const Header = () => {
+
+const Header = (props) => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className={`z-1 position-absolute top-0 w-100 z-3 {pros}`}>
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mx-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        
+                    <Nav>
+                        <Nav.Link className='text-white'>Home</Nav.Link>
+                        <Nav.Link className='text-white'><img src="./assets/images/header/ion_bed.svg" /> Find Stays</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
-          </Navbar.Text>
-        </Navbar.Collapse>
+                <Navbar.Brand className='p-0'><img src="./assets/images/header/Logo.png" alt="" /></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+                <Navbar.Collapse className="justify-content-end ">
+                    <Nav>
+                        <Nav.Link className='text-white'>Login</Nav.Link>
+                        <Nav.Link className='p-0 ps-2'>
+                        <button className='btn-sign'>Sign up</button> 
+                        </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     )
 }
 
-export default Header
+
+export default Header;

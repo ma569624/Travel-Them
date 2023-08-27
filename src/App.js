@@ -1,10 +1,11 @@
-import Home from "./Pages/home/Home";
+import Rout from './routes/Rout';
+import './scss/style.css'
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <section className='m-0 p-0'>
+      <Rout />
+    </section>
   );
 }
 
